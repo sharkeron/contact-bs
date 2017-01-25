@@ -1,0 +1,105 @@
+footer {
+   background: #7beec7 ;
+
+	.foot-title {
+	   margin-top: 50px;
+	   margin-bottom: 30px;
+
+	   color: #fff;
+
+	   font-family: "Montserrat";
+	   font-size: 3rem;
+	   font-weight: bold;
+	}
+
+	.button {
+	   width: 165px;
+	   height: 47px;
+	   margin-bottom: 130px;
+
+	   color: #7beec7 ;
+	   border: none;
+	   outline: none;
+	   background: #fff;
+
+	   font-family: "Montserrat";
+	   font-size: 1.4rem;
+
+		&:hover{
+			color: #fff;
+			border: 1px solid #fff;
+			background: #7beec7;
+		}
+	}
+}
+
+.form {
+   margin-top: 50px;
+   padding: 20px;
+
+   background: #fff;
+
+	.form-name {
+		margin: 0;
+
+	   color: #60606e ;
+
+	   font-family: "Montserrat";
+	   font-size: 2.4rem;
+	   font-weight: bold;
+	}
+
+	.form-instr {
+		margin-bottom: 30px;
+
+		font-size: 1.6rem;
+	}
+
+	.send {
+	   display: inline-block;
+
+		width: 100%;
+
+	   font-size: 0;
+
+		.email {
+		   width: 75%;
+		   max-width: 100%;
+		   height: 50px;
+		   padding-left: 20px;
+
+		   color: #60606e ;
+		   border: 1px solid #cdcdcd ;
+
+		   font-size: 1.2rem;
+
+			&::-webkit-input-placeholder{
+				color: #CDCDCD;
+
+				font-family: "Montserrat";
+				font-size: 1.2rem;
+			}
+		}
+
+		.form-button {
+		   width: 25%;
+		   max-width: 100%;
+		   height: 50px;
+
+		   color: #fff;
+		   border: none;
+		   outline: none;
+		   background: #7beec7 ;
+
+			font-family: "Montserrat";
+			font-size: 1.4rem;
+		   font-size: 1.4rem;
+
+			&:hover{
+				color: #7beec7;
+				border: 1px solid #7beec7;
+				background: #fff;
+			}
+		}
+	}
+}

@@ -1,0 +1,106 @@
+.form-section {
+	padding-top: 150px;
+
+	form {
+		input,
+		textarea {
+			border       : none;
+			outline      : none;
+			border       : 1px solid #E5E5E5;
+			margin-bottom: 30px;
+			padding-left : 20px;
+			font-family  : 'Montserrat';
+			font-weight  : normal;
+			font-size    : 1.2rem;
+			line-height  : 4.5rem;
+			color        : #999999;
+
+			&:-webkit-input-placeholder {
+				font-family: 'Montserrat';
+				font-weight: normal;
+				font-size  : 1.2rem;
+				line-height: 4.5rem;
+				color      : #CCCCCC;
+			}
+		}
+
+		input {
+			height: 50px;
+
+			&[name=email],
+			&[name=name] {
+				width: 46%;
+			}
+
+			&[name=email] {
+				margin-left: 7.35%;
+			}
+		}
+
+		textarea {
+			height     : 200px;
+			padding-top: 6px;
+		}
+
+		input[name=object],
+		textarea {
+			width: 100%;
+		}
+
+		button {
+			width      : 30%;
+			background : #7BEEC7;
+			color      : #fff;
+			font-family: 'Montserrat';
+			font-size  : 1.4rem;
+			line-height: 4.8rem;
+			border     : none;
+			outline    : none;
+			border     : 1px solid transparent;
+
+			&:hover {
+				background: #fff;
+				color     : #7beec7;
+				border    : 1px solid #7beec7;
+			}
+		}
+	}
+
+	.info {
+		margin-bottom: 100px;
+
+		.title {
+			margin-top : 80px;
+			font-family: 'Montserrat';
+			font-size  : 1.8rem;
+			line-height: 4.8rem;
+			color      : #60606E;
+		}
+
+		.contacts,
+		.text {
+			margin-bottom: 10px;
+			font-family  : 'Open Sans';
+			font-size    : 1.4rem;
+			line-height  : 3rem;
+			color        : #999999;
+		}
+
+		.contacts {
+			margin-bottom: 0;
+
+			.bold {
+				font-weight: 600;
+			}
+		}
+
+		.socials {
+			a {
+				color          : #999;
+				text-decoration: none;
+				font-size      : 1.8rem;
+				line-height    : 4.8rem;
+			}
+		}
+	}
+}
