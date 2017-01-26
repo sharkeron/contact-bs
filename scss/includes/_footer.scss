@@ -103,3 +103,15 @@ footer {
 		}
 	}
 }
+
+@media screen and (max-width: 992px) {
+	footer{
+		.button{
+			margin-bottom: 0;
+		}
+	}
+
+	.form{
+		margin-bottom: 75px;
+	}
+}

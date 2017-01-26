@@ -114,51 +114,53 @@ header {
 
 .form-section {
   padding-top: 150px; }
-  .form-section form input,
-  .form-section form textarea {
-    border: none;
-    outline: none;
-    border: 1px solid #E5E5E5;
-    margin-bottom: 30px;
-    padding-left: 20px;
-    font-family: 'Montserrat';
-    font-weight: normal;
-    font-size: 1.2rem;
-    line-height: 4.5rem;
-    color: #999999; }
-    .form-section form input:-webkit-input-placeholder,
-    .form-section form textarea:-webkit-input-placeholder {
+  .form-section form {
+    width: 100%; }
+    .form-section form input,
+    .form-section form textarea {
+      border: none;
+      outline: none;
+      border: 1px solid #E5E5E5;
+      margin-bottom: 30px;
+      padding-left: 20px;
       font-family: 'Montserrat';
       font-weight: normal;
       font-size: 1.2rem;
       line-height: 4.5rem;
-      color: #CCCCCC; }
-  .form-section form input {
-    height: 50px; }
-    .form-section form input[name=email], .form-section form input[name=name] {
-      width: 46%; }
-    .form-section form input[name=email] {
-      margin-left: 7.35%; }
-  .form-section form textarea {
-    height: 200px;
-    padding-top: 6px; }
-  .form-section form input[name=object],
-  .form-section form textarea {
-    width: 100%; }
-  .form-section form button {
-    width: 30%;
-    background: #7BEEC7;
-    color: #fff;
-    font-family: 'Montserrat';
-    font-size: 1.4rem;
-    line-height: 4.8rem;
-    border: none;
-    outline: none;
-    border: 1px solid transparent; }
-    .form-section form button:hover {
-      background: #fff;
-      color: #7beec7;
-      border: 1px solid #7beec7; }
+      color: #999999; }
+      .form-section form input:-webkit-input-placeholder,
+      .form-section form textarea:-webkit-input-placeholder {
+        font-family: 'Montserrat';
+        font-weight: normal;
+        font-size: 1.2rem;
+        line-height: 4.5rem;
+        color: #CCCCCC; }
+    .form-section form input {
+      height: 50px; }
+      .form-section form input[name=name] {
+        margin-left: -15px; }
+      .form-section form input[name=email] {
+        margin-left: 15px; }
+    .form-section form textarea {
+      height: 200px;
+      padding-top: 6px; }
+    .form-section form input[name=object],
+    .form-section form textarea {
+      width: 100%; }
+    .form-section form button {
+      width: 30%;
+      background: #7BEEC7;
+      color: #fff;
+      font-family: 'Montserrat';
+      font-size: 1.4rem;
+      line-height: 4.8rem;
+      border: none;
+      outline: none;
+      border: 1px solid transparent; }
+      .form-section form button:hover {
+        background: #fff;
+        color: #7beec7;
+        border: 1px solid #7beec7; }
   .form-section .info {
     margin-bottom: 100px; }
     .form-section .info .title {
@@ -183,6 +185,14 @@ header {
       text-decoration: none;
       font-size: 1.8rem;
       line-height: 4.8rem; }
+
+@media screen and (max-width: 768px) {
+  .form-section form input p {
+    padding-left: 0 !important;
+    padding-right: 0 !important; }
+  .form-section form input[name=name], .form-section form input[name=email] {
+    margin-left: -15px;
+    width: 104.5%; } }
 
 footer {
   background: #7beec7; }
@@ -252,3 +262,9 @@ footer {
         color: #7beec7;
         border: 1px solid #7beec7;
         background: #fff; }
+
+@media screen and (max-width: 992px) {
+  footer .button {
+    margin-bottom: 0; }
+  .form {
+    margin-bottom: 75px; } }
